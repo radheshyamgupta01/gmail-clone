@@ -1,0 +1,94 @@
+.navbar {
+  margin: 10px 10px;
+}
+
+.subDiv {
+  display: flex;
+  align-items: flex-start;
+  margin: 1px 4px;
+}
+
+.rightNavbar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.leftSideInfoTwo {
+  display: flex;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  font-size: larger;
+  gap: 1rem;
+  flex-direction: column;
+  margin-bottom: 38px;
+}
+
+.leftsideInfoOne {
+  margin: 4rem 5rem;
+  font-size: -webkit-xxx-large;
+  font-weight: 600;
+}
+
+.leftSideInfoThree {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5rem;
+  gap: 1rem;
+  align-items: center;
+}
+
+.rightSideSection {
+  margin-left: 42rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: -27rem;
+}
+
+
+/* Responsive  */
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .subDiv {
+    justify-content: center;
+  }
+
+  .rightNavbar {
+    margin-right: 3rem;
+    margin-top: 1rem;
+    margin-left: 0rem;
+    gap: 21px;
+  }
+
+  .leftSideSection
+   {
+    margin-left: 0;
+  }
+
+  .leftSideInfoTwo,
+  .leftSideInfoThree {
+    margin-left: 2rem;
+  }
+
+  .leftsideInfoOne {
+    margin: 2rem;
+  }
+  
+  .imgsrc {
+    width: 37% !important;
+    margin-top: 2rem;
+  }
+
+  .rightSideSection{
+    display :none;
+  }
+
+  .btn1 {
+    width: 163%; /* Set the desired width value */
+    margin-top: 1rem; /* Set the desired margin value */
+  }
+}

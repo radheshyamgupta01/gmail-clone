@@ -1,0 +1,26 @@
+.ComposeParentMailBox {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 2rem;
+    border: 1px solid black;
+    margin-left: 17rem;
+    padding: 41px 22px;
+    margin-top: -20rem;
+    border-radius: 10px;
+    box-shadow: 5px 6px 8px darkblue;
+}
+
+.sideDiv{
+    display: flex;
+    gap: 10px;
+}
+
+
+@media screen and (max-width: 480px) {
+.ComposeParentMailBox {
+    width: 88%;
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+}

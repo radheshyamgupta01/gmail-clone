@@ -1,0 +1,47 @@
+.tableParent {
+  width: 74%;
+  margin-left: 18rem;
+  margin-top: -24rem;
+}
+
+.tablePParent {
+  width: 74%;
+  margin-left: 18rem;
+  margin-top: -20rem;
+}
+.dotDesign {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: red;
+  margin-left: -2rem;
+  /* display: inline-block; */
+  /* display: flex; */
+  position: relative;
+  top: 19px;
+}
+
+@media screen and (max-width: 480px) {
+  .tableParent {
+    margin-top: 3rem;
+    margin-left: 2rem;
+  }
+}
+
+.tableParent {
+  width: 100%;
+  margin-left: 0;
+  margin-top: 3rem;
+}
+
+@media screen and (min-width: 480px) {
+  .tableParent {
+    margin-left: 2rem;
+
+    margin: 2rem;
+    margin-left: 2remm;
+    margin-left: w;
+    margin-left: 0rem;
+    width: 95%;
+  }
+}

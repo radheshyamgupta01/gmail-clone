@@ -1,0 +1,19 @@
+.InboxBoxName {
+  margin-bottom: 1rem;
+  /* font-weight: 900; */
+  font-family: initial;
+  border-bottom: 3px solid black;
+}
+
+@media screen and (max-width: 480px) {
+  .SentMessages {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.SentMessages {
+  flex-direction: column;
+  width: 50%;
+  margin: 8rem auto;
+}

@@ -1,0 +1,10 @@
+.SentMessages {
+  display: flex;
+  margin: 9rem;
+  align-items: baseline;
+  justify-content: start;
+  gap: 2rem;
+  border: 2px solid black;
+  padding: 58px 47px;
+  border-radius: 24px;
+}
